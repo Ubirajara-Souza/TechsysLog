@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="11.4.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.11" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.11" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.11" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Bira.App.TechsysLog.Application\Bira.App.TechsysLog.Application.csproj" />
+		<ProjectReference Include="..\Bira.App.TechsysLog.Domain\Bira.App.TechsysLog.Domain.csproj" />
+		<ProjectReference Include="..\Bira.App.TechsysLog.Infra\Bira.App.TechsysLog.Infra.csproj" />
+	</ItemGroup>
+
+</Project>

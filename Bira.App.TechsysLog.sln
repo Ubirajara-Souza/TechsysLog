@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{05F25072-25F0-4812-BA5C-71A4E5B24EFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{E0E9A7EA-1AE2-44BD-A13D-894DA1B4A37A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{8D6B6F87-2B67-4171-81B9-3B0D1DA6CE6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{40281AF6-445D-4C8D-A3E3-39985677035E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{CC83443C-312B-4158-BB48-6A8A128A6610}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bira.App.TechsysLog.Service", "Bira.App.TechsysLog.Service\Bira.App.TechsysLog.Service.csproj", "{3F194C2B-B802-4CB0-A855-156615000847}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bira.App.TechsysLog.Application", "Bira.App.TechsysLog.Application\Bira.App.TechsysLog.Application.csproj", "{F900350D-4AA5-43C5-85A3-3826C320B8FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bira.App.TechsysLog.Domain", "Bira.App.TechsysLog.Domain\Bira.App.TechsysLog.Domain.csproj", "{FDA6A6D3-35D7-4033-BA8D-3615A66E6AB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bira.App.TechsysLog.Infra", "Bira.App.TechsysLog.Infra\Bira.App.TechsysLog.Infra.csproj", "{3031DE51-7D10-4CB7-8BC1-6256401FCA61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bira.App.TechsysLog.Api", "Bira.App.TechsysLog.Api\Bira.App.TechsysLog.Api.csproj", "{3C48E451-700C-41A2-A8D8-1D51511298DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F194C2B-B802-4CB0-A855-156615000847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F194C2B-B802-4CB0-A855-156615000847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F194C2B-B802-4CB0-A855-156615000847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F194C2B-B802-4CB0-A855-156615000847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F900350D-4AA5-43C5-85A3-3826C320B8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F900350D-4AA5-43C5-85A3-3826C320B8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F900350D-4AA5-43C5-85A3-3826C320B8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F900350D-4AA5-43C5-85A3-3826C320B8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA6A6D3-35D7-4033-BA8D-3615A66E6AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA6A6D3-35D7-4033-BA8D-3615A66E6AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA6A6D3-35D7-4033-BA8D-3615A66E6AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA6A6D3-35D7-4033-BA8D-3615A66E6AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3031DE51-7D10-4CB7-8BC1-6256401FCA61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3031DE51-7D10-4CB7-8BC1-6256401FCA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3031DE51-7D10-4CB7-8BC1-6256401FCA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3031DE51-7D10-4CB7-8BC1-6256401FCA61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C48E451-700C-41A2-A8D8-1D51511298DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C48E451-700C-41A2-A8D8-1D51511298DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C48E451-700C-41A2-A8D8-1D51511298DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C48E451-700C-41A2-A8D8-1D51511298DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F194C2B-B802-4CB0-A855-156615000847} = {E0E9A7EA-1AE2-44BD-A13D-894DA1B4A37A}
+		{F900350D-4AA5-43C5-85A3-3826C320B8FC} = {8D6B6F87-2B67-4171-81B9-3B0D1DA6CE6E}
+		{FDA6A6D3-35D7-4033-BA8D-3615A66E6AB1} = {40281AF6-445D-4C8D-A3E3-39985677035E}
+		{3031DE51-7D10-4CB7-8BC1-6256401FCA61} = {CC83443C-312B-4158-BB48-6A8A128A6610}
+		{3C48E451-700C-41A2-A8D8-1D51511298DE} = {05F25072-25F0-4812-BA5C-71A4E5B24EFF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9809D983-C9B8-43B5-87F2-46DEA14A1C89}
+	EndGlobalSection
+EndGlobal
